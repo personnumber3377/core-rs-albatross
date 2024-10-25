@@ -19,6 +19,11 @@ afl = { version = "0.15.11", optional = true }
 nimiq-collections = { workspace = true }
 nimiq-primitives = { workspace = true, features = ["key-nibbles", "serde-derive", "trie"] }
 nimiq-serde = { workspace = true }
+nimiq-bls = { workspace = true }
+nimiq-keys = { workspace = true }
+nimiq-account = { workspace = true }
+nimiq-transaction = { workspace = true }
+
 
 [features]
 fuzz = ["afl"]

@@ -3813,9 +3813,13 @@ name = "nimiq-fuzz"
 version = "1.0.0-rc.0"
 dependencies = [
  "afl",
+ "nimiq-account",
+ "nimiq-bls",
  "nimiq-collections",
+ "nimiq-keys",
  "nimiq-primitives",
  "nimiq-serde",
+ "nimiq-transaction",
 ]
 
 [[package]]

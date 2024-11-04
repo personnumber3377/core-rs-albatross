@@ -80,6 +80,8 @@ Alternatively, you can install it directly from git:
 cargo install --git https://github.com/nimiq/core-rs-albatross.git
 ```
 
+some changes here maybe
+
 ## Documentation
 Extensive documentation explaining how the protocol is built up, the JSON-RPC specification, how to get started building applications on top of Nimiq and more can be found at the [Nimiq Developer Center](https://www.nimiq.com/developers/).
 
